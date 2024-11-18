@@ -1,0 +1,182 @@
+[
+    {
+      "id": 1,
+      "name": "Dell Inspiron 15",
+      "price": 550,
+      "category": "Budget",
+      "popularity": 4.2,
+      "description": "A reliable laptop for everyday use.",
+      "image": "https://i.ibb.co.com/b2YKbFw/apple.jpg"
+    },
+    {
+      "id": 2,
+      "name": "HP Pavilion x360",
+      "price": 750,
+      "category": "Convertible",
+      "popularity": 4.5,
+      "description": "A versatile 2-in-1 laptop with a touchscreen.",
+      "image": "https://i.ibb.co.com/b2YKbFw/apple.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Apple MacBook Air M1",
+      "price": 999,
+      "category": "Ultrabook",
+      "popularity": 4.8,
+      "description": "A thin and light laptop with the powerful M1 chip.",
+      "image": "https://i.ibb.co.com/b2YKbFw/apple.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Asus ROG Strix G15",
+      "price": 1200,
+      "category": "Gaming",
+      "popularity": 4.6,
+      "description": "High-performance gaming laptop with RGB lighting.",
+      "image": "https://i.ibb.co.com/b2YKbFw/apple.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Lenovo ThinkPad X1 Carbon",
+      "price": 1400,
+      "category": "Business",
+      "popularity": 4.9,
+      "description": "Premium ultrabook for professionals.",
+      "image": "https://i.ibb.co.com/b2YKbFw/apple.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Acer Aspire 5",
+      "price": 480,
+      "category": "Budget",
+      "popularity": 4.1,
+      "description": "Affordable laptop with solid performance.",
+      "image": "https://i.ibb.co.com/b2YKbFw/apple.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Microsoft Surface Laptop 4",
+      "price": 1300,
+      "category": "Ultrabook",
+      "popularity": 4.7,
+      "description": "Sleek and powerful laptop with a touch display.",
+      "image": "https://i.ibb.co.com/b2YKbFw/apple.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Razer Blade 15",
+      "price": 1800,
+      "category": "Gaming",
+      "popularity": 4.9,
+      "description": "Premium gaming laptop with high-end specs.",
+      "image": "https://i.ibb.co.com/b2YKbFw/apple.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Samsung Galaxy Book Pro",
+      "price": 1100,
+      "category": "Ultrabook",
+      "popularity": 4.6,
+      "description": "Lightweight laptop with an AMOLED screen.",
+      "image": "https://i.ibb.co.com/b2YKbFw/apple.jpg"
+    },
+    {
+      "id": 10,
+      "name": "LG Gram 16",
+      "price": 1200,
+      "category": "Ultrabook",
+      "popularity": 4.8,
+      "description": "Super lightweight laptop with a large display.",
+      "image": "https://i.ibb.co.com/b2YKbFw/apple.jpg"
+    },
+    {
+      "id": 11,
+      "name": "HP Omen 15",
+      "price": 1350,
+      "category": "Gaming",
+      "popularity": 4.5,
+      "description": "Gaming laptop with superior cooling.",
+      "image": "https://i.ibb.co.com/b2YKbFw/apple.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Apple MacBook Pro M1",
+      "price": 1299,
+      "category": "Ultrabook",
+      "popularity": 4.9,
+      "description": "High-performance laptop with the M1 chip.",
+      "image": "https://i.ibb.co.com/b2YKbFw/apple.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Dell XPS 13",
+      "price": 1100,
+      "category": "Ultrabook",
+      "popularity": 4.7,
+      "description": "Compact ultrabook with a stunning display.",
+      "image": "https://i.ibb.co.com/b2YKbFw/apple.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Lenovo Legion 5",
+      "price": 1000,
+      "category": "Gaming",
+      "popularity": 4.4,
+      "description": "Mid-range gaming laptop with powerful performance.",
+      "image": "https://i.ibb.co.com/b2YKbFw/apple.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Acer Nitro 5",
+      "price": 850,
+      "category": "Gaming",
+      "popularity": 4.3,
+      "description": "Budget-friendly gaming laptop.",
+      "image": "https://i.ibb.co.com/b2YKbFw/apple.jpg"
+    },
+    {
+      "id": 16,
+      "name": "HP Envy 13",
+      "price": 950,
+      "category": "Ultrabook",
+      "popularity": 4.5,
+      "description": "Stylish laptop with great performance.",
+      "image": "https://i.ibb.co.com/b2YKbFw/apple.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Asus VivoBook 14",
+      "price": 600,
+      "category": "Budget",
+      "popularity": 4.2,
+      "description": "Affordable laptop with modern features.",
+      "image": "https://i.ibb.co.com/b2YKbFw/apple.jpg"
+    },
+    {
+      "id": 18,
+      "name": "MSI GF65 Thin",
+      "price": 1150,
+      "category": "Gaming",
+      "popularity": 4.6,
+      "description": "Slim gaming laptop with high refresh rate display.",
+      "image": "https://i.ibb.co.com/b2YKbFw/apple.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Microsoft Surface Pro 8",
+      "price": 1200,
+      "category": "Convertible",
+      "popularity": 4.7,
+      "description": "2-in-1 tablet and laptop hybrid.",
+      "image": "https://i.ibb.co.com/b2YKbFw/apple.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Google Pixelbook Go",
+      "price": 950,
+      "category": "Ultrabook",
+      "popularity": 4.5,
+      "description": "Chromebook with excellent build quality.",
+      "image": "https://i.ibb.co.com/b2YKbFw/apple.jpg"
+    }
+  ]  
