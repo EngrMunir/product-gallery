@@ -5,6 +5,8 @@ const Products = () => {
     const [products, setProducts] = useState([])
     const [filteredProducts, setFilteredProducts] = useState([]);
     const [category, setCategory] = useState("");
+    const [searchQuery, setSearchQuery] = useState("");
+    const [sortOption, setSortOption] = useState("");
 
     useEffect(()=>{
         fetch('/data.json')
@@ -17,13 +19,37 @@ const Products = () => {
 
     const handleFilter=(selectedCategory)=>{
         setCategory(selectedCategory)
+        filterAndSearchProducts(selectedCategory,searchQuery, sortOption)
+    }
 
-        if(category ===''){
-            setFilteredProducts(products)
-        }else{
-            const filtered  = products.filter(product => product.category === selectedCategory)
-            setFilteredProducts(filtered)
+    const handleSearch =(query)=>{
+        setSearchQuery(query)
+        filterAndSearchProducts(category,query, sortOption)
+    }
+
+    const handleSort =(selectedSort)=>{
+        setSortOption(selectedSort)
+        filterAndSearchProducts(category, searchQuery, selectedSort)
+    }
+
+    const filterAndSearchProducts=(selectedCategory, query, sort)=>{
+        let filtered = products;
+
+        if(selectedCategory){
+             filtered  = products.filter(product => product.category === selectedCategory)
         }
+        if(query){
+            filtered=filtered.filter(product => product.name.toLowerCase().includes(query.toLowerCase()))
+        }
+
+        if (sort === "priceLowToHigh") {
+            filtered = filtered.sort((a, b) => a.price - b.price);
+        } else if (sort === "priceHighToLow") {
+            filtered = filtered.sort((a, b) => b.price - a.price);
+        } else if (sort === "popularity") {
+            filtered = filtered.sort((a, b) => b.popularity - a.popularity);
+        }
+        setFilteredProducts(filtered)
     }
     return (
         <div>
@@ -43,9 +69,14 @@ const Products = () => {
                     placeholder="Search..."
                     onChange={(e) => handleSearch(e.target.value)}
                     />
-                    <div>
-                        <button>Sort</button>
-                    </div>
+                <div>
+                    <select onChange={(e) => handleSort(e.target.value)}>
+                        <option value="">Sort By</option>
+                        <option value="priceLowToHigh">Price: Low to High</option>
+                        <option value="priceHighToLow">Price: High to Low</option>
+                        <option value="popularity">Popularity</option>
+                    </select>
+                </div>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-5 mx-auto'>
                 {
